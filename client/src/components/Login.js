@@ -35,7 +35,7 @@ function Login() {
   return (
     <div className="App">
       <form>
-        <h2>Login</h2>
+        <h2 style={{ backgroundColor: "deeppink", color: "white" }}>Login</h2>
 
         <div>
           <label>Email</label>

@@ -14,9 +14,7 @@ function Dashboard() {
         Welcome to {storeObj.userDetails.firstName}{" "}
         {storeObj.userDetails.lastName}
       </h1>
-      <img
-        src={`http://localhost:4567/${storeObj.userDetails.profilePic}`}
-      ></img>
+      <img src={`/${storeObj.userDetails.profilePic}`}></img>
     </div>
   );
 }
